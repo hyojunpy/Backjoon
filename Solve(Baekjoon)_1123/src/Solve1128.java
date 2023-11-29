@@ -124,7 +124,8 @@ public class Main{
 } 
  */
 
-
+//15964 이상한 기호
+/*
 import java.io.*; 
 import java.util.*; 
 
@@ -142,3 +143,4 @@ public class Solve1128 {
         return ((A+B) * (A-B));
     }
 }
+ */
