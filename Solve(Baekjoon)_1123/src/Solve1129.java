@@ -136,6 +136,7 @@ public class Solve1129{
 */
 
 //11720 숫자의 합 
+/*
 import java.util.*; 
 import java.io.*; 
 
@@ -152,3 +153,4 @@ public class Solve1129{
 		System.out.println(sum);
 	}
 }
+ */
