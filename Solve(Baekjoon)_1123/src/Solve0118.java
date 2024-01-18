@@ -92,26 +92,26 @@
 //}
 
 
-//25304 영수증 
-import java.util.*;
-import java.io.*;
-
-public class Solve0118{ 
-	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
-		int X = Integer.parseInt(br.readLine()); 
-		int N = Integer.parseInt(br.readLine()); 
-		int Z = 0; 
-		
-		for(int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine()); 
-			int a = Integer.parseInt(st.nextToken()); 
-			int b = Integer.parseInt(st.nextToken()); 
-			int Y = a * b;
-			Z = Z + Y; 
-		}
-		if(Z == X) System.out.println("Yes"); 
-		else System.out.println("No");
-	}
-}
+////25304 영수증 
+//import java.util.*;
+//import java.io.*;
+//
+//public class Solve0118{ 
+//	public static void main(String[] args) throws IOException{
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		StringTokenizer st;
+//		int X = Integer.parseInt(br.readLine()); 
+//		int N = Integer.parseInt(br.readLine()); 
+//		int Z = 0; 
+//		
+//		for(int i = 0; i < N; i++) {
+//			st = new StringTokenizer(br.readLine()); 
+//			int a = Integer.parseInt(st.nextToken()); 
+//			int b = Integer.parseInt(st.nextToken()); 
+//			int Y = a * b;
+//			Z = Z + Y; 
+//		}
+//		if(Z == X) System.out.println("Yes"); 
+//		else System.out.println("No");
+//	}
+//}
