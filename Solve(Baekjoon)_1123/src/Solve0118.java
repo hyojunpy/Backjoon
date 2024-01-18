@@ -72,7 +72,7 @@
 
 
 ////2440 별찍기 -3
-//import java.util.*; 
+//import java.util.*; dsadas
 //import java.io.*; 
 //
 //public class Solve0118{ 
