@@ -123,7 +123,7 @@
 //    }
 //}
 
-// 1271 엄청난 부자2 
+// 1271 엄청난 부자2  111
 // 입력이 long 형을 초과하여 int로 실행했을때는 실패함 
 ////BigInteger을 이용하여 해결, / = divide , % = remainder
 //import java.util.*; 

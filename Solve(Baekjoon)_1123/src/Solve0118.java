@@ -69,10 +69,10 @@
 //		}
 //	}
 //}
-
+//11213
 
 ////2440 별찍기 -3
-//import java.util.*; dsadas
+//import java.util.*; 
 //import java.io.*; 
 //
 //public class Solve0118{ 
