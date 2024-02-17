@@ -164,35 +164,34 @@
 
 ////4375번 1 
 //기술적 풀이 
-//import java.util.*;
-//import java.io.*;
-//import java.math.*;
-//
-//public class Solve0216{
-//	public static void main(String[] args) throws IOException, NumberFormatException{
-//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
-//		String s = ""; 
-//		StringBuilder sb = new StringBuilder(); 
-//		
-//		while((s = br.readLine()) != null) {
-//			BigInteger n = new BigInteger(s);
-//			BigInteger base = BigInteger.ZERO;
-//			while(true) {
-//				base = base.multiply(BigInteger.TEN).add(BigInteger.ONE);
-//				if(base.mod(n).equals(BigInteger.ZERO)) {
-//					sb.append(base.toString().length() + "\n"); 
-//					break;
-//				}
-//			}
-//		}
-//		System.out.println(sb);
-//	}
-//}
+import java.util.*;
+import java.io.*;
+import java.math.*;
+
+public class Solve0216{
+	public static void main(String[] args) throws IOException, NumberFormatException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
+		String s = ""; 
+		StringBuilder sb = new StringBuilder(); 
+		
+		while((s = br.readLine()) != null) {
+			BigInteger n = new BigInteger(s);
+			BigInteger base = BigInteger.ZERO;
+			while(true) {
+				base = base.multiply(BigInteger.TEN).add(BigInteger.ONE);
+				if(base.mod(n).equals(BigInteger.ZERO)) {
+					sb.append(base.toString().length() + "\n"); 
+					break;
+				}
+			}
+		}
+		System.out.println(sb);
+	}
+}
 
 //수학적 풀이 
 //import java.util.*;
 //import java.io.*;
-//import java.math.*;
 //
 //public class Solve0216{
 //	public static void main(String[] args) throws IOException {
@@ -213,4 +212,4 @@
 //		}
 //		System.out.print(sb);
 //	}
-////}
+//}
