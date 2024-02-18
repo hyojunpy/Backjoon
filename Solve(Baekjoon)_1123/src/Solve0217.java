@@ -157,41 +157,39 @@
 //}
 
 //2588 곱셈
-import java.util.*;
-import java.io.*;
-
-public class Solve0217{
-	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder(); 
-		
-		int s1 = Integer.parseInt(br.readLine()); 
-		String s2 = br.readLine(); 
-		/* 		// 다른 방법
-		for(int i = s2.length() -1 ; i >= 0; i--) {
-			sb.append(s1 * (s2.charAt(i) - '0') + "\n");
-		}
-		sb.append(s1 * Integer.parseInt(s2)); 
-		
-		System.out.print(sb); 
-		*/ 
-		
-		int result = 0; 
-		
-		for(int i = 0; i < s2.length(); i++) {
-			 int N = s1 * (s2.charAt(2 - i) -'0'); 
-			 sb.append(N + "\n"); 
-			 if(i == 1) {
-				 result += N * 10;
-			 }
-			 else if(i == 2) {
-				 result += N * 100;				 
-			 }
-			 else result += N; 
-		}
-		sb.append(result); 
-		System.out.print(sb); 
-	}
-}
-
-
+//import java.util.*;
+//import java.io.*;
+//
+//public class Solve0217{
+//	public static void main(String[] args) throws IOException{
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		StringBuilder sb = new StringBuilder(); 
+//		
+//		int s1 = Integer.parseInt(br.readLine()); 
+//		String s2 = br.readLine(); 
+//		/* 		// 다른 방법
+//		for(int i = s2.length() -1 ; i >= 0; i--) {
+//			sb.append(s1 * (s2.charAt(i) - '0') + "\n");
+//		}
+//		sb.append(s1 * Integer.parseInt(s2)); 
+//		
+//		System.out.print(sb); 
+//		*/ 
+//		
+//		int result = 0; 
+//		
+//		for(int i = 0; i < s2.length(); i++) {
+//			 int N = s1 * (s2.charAt(2 - i) -'0'); 
+//			 sb.append(N + "\n"); 
+//			 if(i == 1) {
+//				 result += N * 10;
+//			 }
+//			 else if(i == 2) {
+//				 result += N * 100;				 
+//			 }
+//			 else result += N; 
+//		}
+//		sb.append(result); 
+//		System.out.print(sb); 
+//	}
+//}
