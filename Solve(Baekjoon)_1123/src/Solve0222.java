@@ -125,7 +125,7 @@
 //	}
 //}
 
-//31416 가상 검증 기술 
+//31416 가상 검증 기술  //미완
 import java.util.*; 
 import java.io.*; 
 import java.math.*; 
