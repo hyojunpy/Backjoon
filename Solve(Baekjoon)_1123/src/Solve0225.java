@@ -1,8 +1,7 @@
+//24723 녹색거탑
 import java.util.*;
 import java.io.*;
 import java.math.*;
-
-
 
 public class Solve0225 {
 
