@@ -1,3 +1,5 @@
+//1546 평균
+
 import java.util.*;
 import java.io.*;
 import java.math.*;
@@ -15,9 +17,9 @@ public class Solve0301 {
 		
 		for(int i = 0; i < N; i++) {
 			arr[i] = Double.parseDouble(st.nextToken()); 
-			for(double j : arr) {
-				max = Math.max(max, j); 
-			}
+		}
+		for(double j : arr) {
+			max = Math.max(max, j); 
 		}
 		
 		for(int i = 0; i < N; i++) {
