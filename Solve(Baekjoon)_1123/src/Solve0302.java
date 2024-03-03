@@ -20,7 +20,7 @@ public class Solve0302 {
 		else if(N % 5 == 2 || N % 5 == 4) {
 			System.out.print((N/5) + 2);
 		}
-		
+		 
 	}
 }
 
